@@ -1,0 +1,19 @@
+<h2>ブログを作成</h2>
+<!--
+<%= form_with(model: Blog.new, local: true) do |form| %>
+   <% if @blog.errors.any? %>
+    <div id="error_explanation">
+      <h2>投稿できません．文字数を確認して下さい．</h2>
+      <ul>
+
+      <% @blog.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+
+    </div>
+  <% end %>
+-->
+  <%= render 'form' %>
+<!--  
+<% end %>-->
